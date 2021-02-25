@@ -167,7 +167,7 @@ public class DeepHandshakeFuzzyClient extends AbstractFuzzyClient {
 
             for (Engine engine : engines) {
                 engine.require(successCheck());
-                engine.require(applicationDataCheck());
+          //      engine.require(applicationDataCheck());
             }
 
             logger.info("smoke test passed, start fuzzing");
